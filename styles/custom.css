@@ -70,3 +70,7 @@
 .navbar-toggler.collapsed .toggler-icon{
     background: black;
 }
+
+.nav-link.active{
+    border: 2px solid;
+}
