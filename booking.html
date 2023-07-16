@@ -47,20 +47,20 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 ARTISTS
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="artist1.html">ExQ x ABX-NUTTYO</a></li>
                                 <li><a class="dropdown-item" href="artist2.html">JAZZIQ</a></li>
-                                <li><a class="dropdown-item active" href="#">MUSA KEYS</a></li>
+                                <li><a class="dropdown-item" href="artist3.html">MUSA KEYS</a></li>
                                 <li><a class="dropdown-item" href="artist4.html">UNCLE WAFFLES</a></li>
                                 <li><a class="dropdown-item" href="artist5.html">YOUNGSTUNNA</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="booking.html">BOOKING</a>
+                            <a class="nav-link active" href="#">BOOKING</a>
                         </li>
                     </ul>
                 </div>
@@ -68,48 +68,51 @@
         </nav>
     </header>
     <main>
-        <div class="container text-center mt-5">
-            <div class="row">
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/1.JPG" class="img-fluid" alt="...">
+        <div class="container bg-light p-5  rounded border border-black">
+            <h1 class="text-center mt-5">Schedule a Session</h1>
+            <form action="https://formsubmit.co/theemailtatendawants.com" method="POST">
+                <div class="mt-5 mb-3">
+                    <div>
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" name="name" class="form-control" id="name" required=""
+                            placeholder="Name...................................." aria-describedby="name">
+                    </div>
+                    <div id="emailHelp" class="form-text">We'll never share your name with anyone else.</div>
                 </div>
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/2.JPG" class="img-fluid" alt="...">
+                <div class="mb-3">
+                    <label for="email-address" class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-control" id="email-address" required=""
+                        placeholder="Email Address.................................... " aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/3.JPG" class="img-fluid" alt="...">
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" name="subject" class="form-control" id="subject" required=""
+                        placeholder="Subject....................................">
                 </div>
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/4.JPG" class="img-fluid" alt="...">
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <input type="text" name="subject" class="form-control" id="message" required=""
+                        placeholder="Message....................................">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/5.JPG" class="img-fluid" alt="...">
+                <div class="mb-3">
+                    <label for="message" class="form-label">Photoshoot Type</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected="">-</option>
+                        <option value="1">Potrait/Lifestyle</option>
+                        <option value="2">Pairs/Duo</option>
+                        <option value="3">Group/Family</option>
+                        <option value="4">Event</option>
+                    </select>
                 </div>
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/6.JPG" class="img-fluid" alt="...">
+                <div class="mt-5">
+                    <button type="submit" class="btn btn-outline-dark"
+                        style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 3rem; --bs-btn-font-size: .75rem;">SEND</button>
                 </div>
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/7.JPG" class="img-fluid" alt="...">
-                </div>
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/8.JPG" class="img-fluid" alt="...">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/9.JPG" class="img-fluid" alt="...">
-                </div>
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/10.JPG" class="img-fluid" alt="...">
-                </div>
-                <div class="col-sm-3 px-0 mx-0">
-                    <img src="img/5.ARTISTS/MUSA KEYS/11.JPG" class="img-fluid" alt="...">
-                </div>
-            </div>
+            </form>
         </div>
-
     </main>
 
     <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
