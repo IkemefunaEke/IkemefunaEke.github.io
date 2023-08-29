@@ -94,3 +94,12 @@
     background-color: black;
     color: whitesmoke;
 }
+
+h1, h2, h3, a, p{
+    /*font-family: 'Bangers', cursive;
+    font-family: 'Noto Sans', sans-serif;*/
+    /*font-family: 'Nova Square', cursive;*/
+    /*font-family: 'Rozha One', serif;*/
+    /*font-family: 'Teko', sans-serif;*/
+    /*font-family: 'Rogue Hero 3D', sans-serif;*/
+}
