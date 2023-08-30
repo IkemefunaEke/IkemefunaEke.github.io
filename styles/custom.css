@@ -103,7 +103,7 @@
     color: whitesmoke;
 }
 
-h1, h2, h3, a, p, .form-text, .form-label, option{
+h1, h2, h3, a, p, .form-text, .form-label, option, input{
     /*font-family: 'Bangers', cursive;*/
     /*font-family: 'Noto Sans', sans-serif;*/
     /*font-family: 'Nova Square', cursive;*/
