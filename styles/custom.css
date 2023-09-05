@@ -5,8 +5,12 @@
     transition: .5s ease-in-out;
 }
 
+.container.logo{
+    width: 100px;
+}
 .nav-link{
     color: black;
+    font-weight: bold;
 }
 
 .nav-link:hover{
@@ -95,9 +99,9 @@
     background-color: white;
     color: black;
     cursor: pointer;
-    padding: 15px;
-    height: 50px;
-    width: 50px;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
 }
 
@@ -107,7 +111,35 @@
     opacity: 100%;
 }
 
-
+@media screen and (max-width: 900px) {
+    .nav.container {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+    .navbar-brand{
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .logo{
+        width: 200px;
+        
+    }
+    span>.text-center{
+        display: none;
+    }
+    
+    main{
+        padding-top: 100px;
+    }
+    .tat-img{
+        width: 200px;
+        height: auto;
+    }
+}
 /*h1, h2, h3, a, p, .form-text, .form-label, option, input{
     /*font-family: 'Bangers', cursive;*/
     /*font-family: 'Noto Sans', sans-serif;*/
